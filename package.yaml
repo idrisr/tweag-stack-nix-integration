@@ -1,0 +1,19 @@
+name:                haskell-training
+version:             0.1.0.0
+homepage:            https://github.com/tweag/haskell-training#readme
+license:             CC-BY-NC-4.0
+author:              Marco Perone
+maintainer:          marco.perone@tweag.io
+copyright:           2022 Tweag I/O
+
+dependencies: 
+  - base >= 4.7 && < 5
+  - servant-server
+
+ghc-options:
+  -W
+  -fwrite-ide-info
+  -hiedir=.hie
+
+library:
+  source-dirs: .
