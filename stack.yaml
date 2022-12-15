@@ -3,3 +3,8 @@ resolver:
 
 packages:
 - .
+
+nix:
+  enable: true
+  pure: false
+  shell-file: nix/stack-integration.nix
